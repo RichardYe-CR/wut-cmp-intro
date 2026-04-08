@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算机科学与技术专业招生宣传</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            position: relative;
+            height: 300px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .section {
+            padding: 40px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-align: center;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card h3 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            color: #764ba2;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+        
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .image-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .image-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .image-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .header p {
+                font-size: 1em;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+            
+            .section {
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>计算机科学与技术</h1>
+            <p>本科 · 四年制 · 工学学士</p>
+        </div>
+        
+        <div class="section">
+            <h2>专业优势</h2>
+            <div class="card">
+                <p>本专业是校级优势专业，湖北省高校优势特色学科（培育）主干学科专业，湖北省一流专业，湖北省服务外包人才培养基地依托专业，计算机科学与技术教学团队为省级教学团队。</p>
+                <p>《数据结构》课程为湖北省一流课程、省级精品资源共享课。《Python高级开发技术》课程为湖北省一流课程。本专业的实践教学体系入选2024省级新工科实践教学建设名单。</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>人才培养优势</h2>
+            <div class="card">
+                <p>本专业按国际工程教育认证标准进行人才培养，近四年本专业学生获省部级以上专业赛事奖项100多项，获批国家级创新创业项目7项。</p>
+                <p>涌现出红桃开执行总裁解砾、“毕业7年后年收入400万”的张正等优秀校友。</p>
+            </div>
+            
+            <h3 style="margin-top: 30px; text-align: center; color: #764ba2;">学生获奖情况</h3>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="图片/5/ICPC.jpg" alt="ICPC竞赛">
+                </div>
+                <div class="image-item">
+                    <img src="图片/5/RAICOM.png" alt="RAICOM竞赛">
+                </div>
+                <div class="image-item">
+                    <img src="图片/5/天梯赛1.png" alt="天梯赛">
+                </div>
+                <div class="image-item">
+                    <img src="图片/5/蓝桥杯1.jpg" alt="蓝桥杯">
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>培养目标</h2>
+            <div class="card">
+                <p>本专业培养立足计算机系统架构师、人工智能算法工程师、大数据开发工程师等核心技术岗位，成长为职业素养优秀、职业能力突出、职业发展潜力巨大的，能在计算机科学与技术及相关领域从事项目研发、工程应用、项目管理、技术服务等工作，具有AI素养的高素质应用型专门人才。</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>核心课程</h2>
+            <div class="card">
+                <ul class="feature-list">
+                    <li>电路与电子技术</li>
+                    <li>计算机组成原理</li>
+                    <li>离散数学</li>
+                    <li>计算机网络</li>
+                    <li>高级语言程序设计</li>
+                    <li>数据结构</li>
+                    <li>智能算法设计与分析</li>
+                    <li>数据库系统原理</li>
+                    <li>MySQL数据库应用与开发</li>
+                    <li>操作系统原理</li>
+                    <li>软件工程</li>
+                    <li>Python高级开发技术</li>
+                    <li>Java语言程序设计</li>
+                    <li>JavaEE企业级框架开发</li>
+                    <li>AIGC基础与应用</li>
+                    <li>人工智能与数据处理基础</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>师资力量</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="图片/4/产学研立项证书-万春璐.jpg" alt="万春璐老师">
+                </div>
+                <div class="image-item">
+                    <img src="图片/4/产学研立项证书-阳小兰.png" alt="阳小兰老师">
+                </div>
+                <div class="image-item">
+                    <img src="图片/4/产学研立项证书-雷鸿.png" alt="雷鸿老师">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>计算机科学与技术专业招生宣传</p>
+            <p>咨询电话：XXX-XXXXXXX</p>
+            <p>电子邮箱：XXXXXX@XXX.edu.cn</p>
+        </div>
+    </div>
+    
+    <script>
+        // 添加滚动动画效果
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (sectionTop < windowHeight * 0.8) {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }
+            });
+        });
+        
+        // 初始化滚动动画
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            // 触发一次滚动事件
+            window.dispatchEvent(new Event('scroll'));
+        });
+    </script>
+</body>
+</html>
